@@ -13,7 +13,7 @@ function insertionSort(array) {
     if (len > 1) {
       for (var i = 1; i < len; i++) {
         var value = array[i]
-        for (j = i - 1; j >= 0; j--) {
+        for (var j = i - 1; j >= 0; j--) {
           if (value < array[j]) {
             array[j + 1] = array[j]
           } else {
